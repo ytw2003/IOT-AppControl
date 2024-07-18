@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>App Control</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div class="content-container">
+    <div class="button-container">
+      <ion-button
+        expand="block"
+        (click)="sendCommand('Nyalakan Lampu Merah')"
+        class="red"
+      >
+        Nyalakan Lampu Merah
+      </ion-button>
+      <ion-button
+        expand="block"
+        (click)="sendCommand('Nyalakan Lampu Biru')"
+        class="blue"
+      >
+        Nyalakan Lampu Biru
+      </ion-button>
+      <ion-button
+        expand="block"
+        (click)="sendCommand('Nyalakan Lampu Hijau')"
+        class="green"
+      >
+        Nyalakan Lampu Hijau
+      </ion-button>
+      <ion-button
+        expand="block"
+        (click)="sendCommand('Matikan Lampu')"
+        class="off"
+      >
+        Matikan Lampu
+      </ion-button>
+    </div>
+  </div>
+</ion-content>

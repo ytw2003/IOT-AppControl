@@ -1,0 +1,38 @@
+.content-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: #fff; 
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+ion-button.red {
+  --background: red;
+  --color: white;
+}
+
+ion-button.blue {
+  --background: blue;
+  --color: black;
+}
+
+ion-button.green {
+  --background: green;
+  --color: white;
+}
+
+ion-button.off {
+  --background: grey;
+  --color: white;
+}
